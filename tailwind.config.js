@@ -7,7 +7,11 @@ module.exports = {
   ],
   theme: {
     colors: {
-      header: "#242428"
+      header: "#242428",
+      logInBtn : "#FFDD95",
+      bodybg : "#242428",
+      baitext : "#FFFFFF",
+      gray : "#3b3b3b",
     },
     extend: {
       backgroundImage: {
