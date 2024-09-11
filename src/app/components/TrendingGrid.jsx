@@ -7,7 +7,7 @@ const TrendingGrid = () => {
 
         <div className="container my-4">
         
-      <div className="grid grid-cols-2 gap-5 md:grid-cols-4 lg:grid-cols-6">
+      <div className="grid grid-cols-2 gap-5 lg:grid-cols-6">
         <div>
           <TrendingCard title="One piece" ranking={1} image="https://via.placeholder.com/100x200" />
         </div>
@@ -24,11 +24,11 @@ const TrendingGrid = () => {
           <TrendingCard title="My Star: Season 2" ranking={5} image="https://via.placeholder.com/100x200" />
         </div>
         <div>
-          <TrendingCard title="Fairy Tail. 100 Years" ranking={6} image="https://via.placeholder.com/100x200" />
+          <TrendingCard title="Fairy Tail: 100 Years" ranking={6} image="https://via.placeholder.com/100x200" />
         </div>
       </div>
     </div>
-    <div className="ml-3 block mt-4">
+    <div className="ml-3 flex-col mt-4 ">
        <button className="btns w-[40px] h-[116px] bg-gray rounded-[15px]">R</button>
        <button className="btns w-[40px] h-[116px] mt-3 bg-gray rounded-[15px]">L</button>
     </div>
